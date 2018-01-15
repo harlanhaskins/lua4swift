@@ -1,3 +1,5 @@
+import LuaSource
+import Foundation
 
 public protocol Value {
     func push(_ vm: VirtualMachine)

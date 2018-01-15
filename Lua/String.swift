@@ -1,8 +1,10 @@
+import LuaSource
+import Foundation
 
 extension String: Value {
     
     public func push(_ vm: VirtualMachine) {
-        lua_pushstring(vm.vm, (self as NSString).utf8String)
+        lua_pushstring(vm.vm, self)
     }
     
     public func kind() -> Kind { return .string }

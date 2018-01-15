@@ -1,0 +1,15 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "a3bfd837c8ab3f3492f4bed746e6707a"
+build_time: [1516052857, 978906000]
+inputs:
+  "/Users/harlan/Code/Swift/lua4swift/Lua/Boolean.swift": [1516052831, 0]
+  "/Users/harlan/Code/Swift/lua4swift/Lua/ExtraTypes.swift": [1516052840, 0]
+  "/Users/harlan/Code/Swift/lua4swift/Lua/Function.swift": [1516052829, 0]
+  "/Users/harlan/Code/Swift/lua4swift/Lua/Nil.swift": [1516052821, 0]
+  "/Users/harlan/Code/Swift/lua4swift/Lua/Number.swift": [1516052816, 0]
+  "/Users/harlan/Code/Swift/lua4swift/Lua/String.swift": [1516052818, 0]
+  "/Users/harlan/Code/Swift/lua4swift/Lua/Table.swift": [1516052824, 0]
+  "/Users/harlan/Code/Swift/lua4swift/Lua/Thread.swift": [1516052826, 0]
+  "/Users/harlan/Code/Swift/lua4swift/Lua/Userdata.swift": [1516052836, 0]
+  "/Users/harlan/Code/Swift/lua4swift/Lua/Value.swift": [1516052813, 0]
+  "/Users/harlan/Code/Swift/lua4swift/Lua/VirtualMachine.swift": [1516052810, 0]

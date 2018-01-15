@@ -1,0 +1,71 @@
+{
+  "": {
+    "swift-dependencies": "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/Lua.build/master.swiftdeps"
+  },
+  "/Users/harlan/Code/Swift/lua4swift/Lua/Boolean.swift": {
+    "dependencies": "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/Lua.build/Boolean.d",
+    "object": "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/Lua.build/Boolean.swift.o",
+    "swiftmodule": "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/Lua.build/Boolean~partial.swiftmodule",
+    "swift-dependencies": "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/Lua.build/Boolean.swiftdeps"
+  },
+  "/Users/harlan/Code/Swift/lua4swift/Lua/ExtraTypes.swift": {
+    "dependencies": "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/Lua.build/ExtraTypes.d",
+    "object": "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/Lua.build/ExtraTypes.swift.o",
+    "swiftmodule": "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/Lua.build/ExtraTypes~partial.swiftmodule",
+    "swift-dependencies": "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/Lua.build/ExtraTypes.swiftdeps"
+  },
+  "/Users/harlan/Code/Swift/lua4swift/Lua/Function.swift": {
+    "dependencies": "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/Lua.build/Function.d",
+    "object": "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/Lua.build/Function.swift.o",
+    "swiftmodule": "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/Lua.build/Function~partial.swiftmodule",
+    "swift-dependencies": "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/Lua.build/Function.swiftdeps"
+  },
+  "/Users/harlan/Code/Swift/lua4swift/Lua/Nil.swift": {
+    "dependencies": "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/Lua.build/Nil.d",
+    "object": "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/Lua.build/Nil.swift.o",
+    "swiftmodule": "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/Lua.build/Nil~partial.swiftmodule",
+    "swift-dependencies": "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/Lua.build/Nil.swiftdeps"
+  },
+  "/Users/harlan/Code/Swift/lua4swift/Lua/Number.swift": {
+    "dependencies": "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/Lua.build/Number.d",
+    "object": "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/Lua.build/Number.swift.o",
+    "swiftmodule": "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/Lua.build/Number~partial.swiftmodule",
+    "swift-dependencies": "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/Lua.build/Number.swiftdeps"
+  },
+  "/Users/harlan/Code/Swift/lua4swift/Lua/String.swift": {
+    "dependencies": "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/Lua.build/String.d",
+    "object": "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/Lua.build/String.swift.o",
+    "swiftmodule": "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/Lua.build/String~partial.swiftmodule",
+    "swift-dependencies": "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/Lua.build/String.swiftdeps"
+  },
+  "/Users/harlan/Code/Swift/lua4swift/Lua/Table.swift": {
+    "dependencies": "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/Lua.build/Table.d",
+    "object": "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/Lua.build/Table.swift.o",
+    "swiftmodule": "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/Lua.build/Table~partial.swiftmodule",
+    "swift-dependencies": "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/Lua.build/Table.swiftdeps"
+  },
+  "/Users/harlan/Code/Swift/lua4swift/Lua/Thread.swift": {
+    "dependencies": "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/Lua.build/Thread.d",
+    "object": "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/Lua.build/Thread.swift.o",
+    "swiftmodule": "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/Lua.build/Thread~partial.swiftmodule",
+    "swift-dependencies": "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/Lua.build/Thread.swiftdeps"
+  },
+  "/Users/harlan/Code/Swift/lua4swift/Lua/Userdata.swift": {
+    "dependencies": "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/Lua.build/Userdata.d",
+    "object": "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/Lua.build/Userdata.swift.o",
+    "swiftmodule": "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/Lua.build/Userdata~partial.swiftmodule",
+    "swift-dependencies": "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/Lua.build/Userdata.swiftdeps"
+  },
+  "/Users/harlan/Code/Swift/lua4swift/Lua/Value.swift": {
+    "dependencies": "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/Lua.build/Value.d",
+    "object": "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/Lua.build/Value.swift.o",
+    "swiftmodule": "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/Lua.build/Value~partial.swiftmodule",
+    "swift-dependencies": "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/Lua.build/Value.swiftdeps"
+  },
+  "/Users/harlan/Code/Swift/lua4swift/Lua/VirtualMachine.swift": {
+    "dependencies": "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/Lua.build/VirtualMachine.d",
+    "object": "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/Lua.build/VirtualMachine.swift.o",
+    "swiftmodule": "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/Lua.build/VirtualMachine~partial.swiftmodule",
+    "swift-dependencies": "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/Lua.build/VirtualMachine.swiftdeps"
+  }
+}

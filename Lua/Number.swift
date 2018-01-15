@@ -1,3 +1,5 @@
+import LuaSource
+import Foundation
 
 open class Number: StoredValue, CustomDebugStringConvertible {
     

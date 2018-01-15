@@ -1,0 +1,549 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Number"
+provides-nominal:
+- "3Lua6NumberC"
+- "Sd"
+- "s5Int64V"
+- "Si"
+provides-member:
+- ["3Lua6NumberC", ""]
+- ["Sd", ""]
+- ["s5Int64V", ""]
+- ["Si", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "!="
+- "CustomDebugStringConvertible"
+- "Double"
+- !private "FloatLiteralType"
+- "Int"
+- "Int64"
+- !private "IntegerLiteralType"
+- "Kind"
+- "Number"
+- "StoredValue"
+- "String"
+- !private "StringLiteralType"
+- "Value"
+- "VirtualMachine"
+- !private "lua_isinteger"
+- !private "lua_pushinteger"
+- !private "lua_pushnumber"
+- !private "lua_tointegerx"
+- !private "lua_tonumberx"
+depends-member:
+- !private ["s23BidirectionalCollectionP", "init"]
+- ["s19BinaryFloatingPointP", "arg"]
+- !private ["s19BinaryFloatingPointP", "description"]
+- ["s19BinaryFloatingPointP", "kind"]
+- !private ["s19BinaryFloatingPointP", "lua_isinteger"]
+- !private ["s19BinaryFloatingPointP", "lua_pushnumber"]
+- ["s19BinaryFloatingPointP", "push"]
+- !private ["s13BinaryIntegerP", "Int64"]
+- ["s13BinaryIntegerP", "arg"]
+- !private ["s13BinaryIntegerP", "description"]
+- !private ["s13BinaryIntegerP", "init"]
+- ["s13BinaryIntegerP", "kind"]
+- !private ["s13BinaryIntegerP", "lua_isinteger"]
+- !private ["s13BinaryIntegerP", "lua_pushinteger"]
+- ["s13BinaryIntegerP", "push"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "Int64"]
+- ["s7CVarArgP", "arg"]
+- !private ["s7CVarArgP", "description"]
+- !private ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "kind"]
+- !private ["s7CVarArgP", "lua_isinteger"]
+- !private ["s7CVarArgP", "lua_pushinteger"]
+- !private ["s7CVarArgP", "lua_pushnumber"]
+- ["s7CVarArgP", "push"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "Int64"]
+- ["s10ComparableP", "arg"]
+- !private ["s10ComparableP", "description"]
+- !private ["s10ComparableP", "init"]
+- ["s10ComparableP", "kind"]
+- !private ["s10ComparableP", "lua_isinteger"]
+- !private ["s10ComparableP", "lua_pushinteger"]
+- !private ["s10ComparableP", "lua_pushnumber"]
+- ["s10ComparableP", "push"]
+- ["s28CustomDebugStringConvertibleP", "arg"]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- !private ["s28CustomDebugStringConvertibleP", "description"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "kind"]
+- !private ["s28CustomDebugStringConvertibleP", "lua_isinteger"]
+- !private ["s28CustomDebugStringConvertibleP", "lua_pushnumber"]
+- !private ["s28CustomDebugStringConvertibleP", "lua_tointegerx"]
+- !private ["s28CustomDebugStringConvertibleP", "lua_tonumberx"]
+- !private ["s28CustomDebugStringConvertibleP", "number"]
+- ["s28CustomDebugStringConvertibleP", "push"]
+- !private ["s28CustomDebugStringConvertibleP", "toDouble"]
+- !private ["s28CustomDebugStringConvertibleP", "toInteger"]
+- !private ["s28CustomDebugStringConvertibleP", "vm"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "Int64"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- ["s29CustomPlaygroundQuickLookableP", "arg"]
+- !private ["s29CustomPlaygroundQuickLookableP", "description"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s29CustomPlaygroundQuickLookableP", "kind"]
+- !private ["s29CustomPlaygroundQuickLookableP", "lua_isinteger"]
+- !private ["s29CustomPlaygroundQuickLookableP", "lua_pushinteger"]
+- !private ["s29CustomPlaygroundQuickLookableP", "lua_pushnumber"]
+- ["s29CustomPlaygroundQuickLookableP", "push"]
+- !private ["s17CustomReflectableP", "Int64"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- ["s17CustomReflectableP", "arg"]
+- !private ["s17CustomReflectableP", "description"]
+- !private ["s17CustomReflectableP", "init"]
+- ["s17CustomReflectableP", "kind"]
+- !private ["s17CustomReflectableP", "lua_isinteger"]
+- !private ["s17CustomReflectableP", "lua_pushinteger"]
+- !private ["s17CustomReflectableP", "lua_pushnumber"]
+- !private ["s17CustomReflectableP", "number"]
+- ["s17CustomReflectableP", "push"]
+- !private ["s23CustomStringConvertibleP", "Int64"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s23CustomStringConvertibleP", "arg"]
+- !private ["s23CustomStringConvertibleP", "description"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "kind"]
+- !private ["s23CustomStringConvertibleP", "lua_isinteger"]
+- !private ["s23CustomStringConvertibleP", "lua_pushinteger"]
+- !private ["s23CustomStringConvertibleP", "lua_pushnumber"]
+- ["s23CustomStringConvertibleP", "push"]
+- !private ["s9DecodableP", "Int64"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- ["s9DecodableP", "arg"]
+- !private ["s9DecodableP", "description"]
+- !private ["s9DecodableP", "init"]
+- ["s9DecodableP", "kind"]
+- !private ["s9DecodableP", "lua_isinteger"]
+- !private ["s9DecodableP", "lua_pushinteger"]
+- !private ["s9DecodableP", "lua_pushnumber"]
+- !private ["s9DecodableP", "number"]
+- ["s9DecodableP", "push"]
+- ["Sd", "Kind"]
+- ["Sd", "String"]
+- ["Sd", "Value"]
+- ["Sd", "VirtualMachine"]
+- ["Sd", "arg"]
+- ["Sd", "deinit"]
+- !private ["Sd", "description"]
+- ["Sd", "kind"]
+- !private ["Sd", "lua_isinteger"]
+- !private ["Sd", "lua_pushnumber"]
+- ["Sd", "push"]
+- !private ["s9EncodableP", "Int64"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- ["s9EncodableP", "arg"]
+- !private ["s9EncodableP", "description"]
+- !private ["s9EncodableP", "init"]
+- ["s9EncodableP", "kind"]
+- !private ["s9EncodableP", "lua_isinteger"]
+- !private ["s9EncodableP", "lua_pushinteger"]
+- !private ["s9EncodableP", "lua_pushnumber"]
+- !private ["s9EncodableP", "number"]
+- ["s9EncodableP", "push"]
+- !private ["s9EquatableP", "Int64"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- ["s9EquatableP", "arg"]
+- ["s9EquatableP", "debugDescription"]
+- !private ["s9EquatableP", "description"]
+- !private ["s9EquatableP", "init"]
+- ["s9EquatableP", "kind"]
+- !private ["s9EquatableP", "lua_isinteger"]
+- !private ["s9EquatableP", "lua_pushinteger"]
+- !private ["s9EquatableP", "lua_pushnumber"]
+- !private ["s9EquatableP", "lua_tointegerx"]
+- !private ["s9EquatableP", "lua_tonumberx"]
+- !private ["s9EquatableP", "number"]
+- ["s9EquatableP", "push"]
+- !private ["s9EquatableP", "toDouble"]
+- !private ["s9EquatableP", "toInteger"]
+- !private ["s9EquatableP", "vm"]
+- ["s9EquatableP", ""]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s25ExpressibleByFloatLiteralP", "arg"]
+- !private ["s25ExpressibleByFloatLiteralP", "description"]
+- ["s25ExpressibleByFloatLiteralP", "kind"]
+- !private ["s25ExpressibleByFloatLiteralP", "lua_isinteger"]
+- !private ["s25ExpressibleByFloatLiteralP", "lua_pushnumber"]
+- ["s25ExpressibleByFloatLiteralP", "push"]
+- !private ["s27ExpressibleByIntegerLiteralP", "Int64"]
+- ["s27ExpressibleByIntegerLiteralP", "arg"]
+- !private ["s27ExpressibleByIntegerLiteralP", "description"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- ["s27ExpressibleByIntegerLiteralP", "kind"]
+- !private ["s27ExpressibleByIntegerLiteralP", "lua_isinteger"]
+- !private ["s27ExpressibleByIntegerLiteralP", "lua_pushinteger"]
+- !private ["s27ExpressibleByIntegerLiteralP", "lua_pushnumber"]
+- ["s27ExpressibleByIntegerLiteralP", "push"]
+- !private ["s23ExpressibleByNilLiteralP", "number"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "Int64"]
+- ["s17FixedWidthIntegerP", "arg"]
+- !private ["s17FixedWidthIntegerP", "description"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- ["s17FixedWidthIntegerP", "kind"]
+- !private ["s17FixedWidthIntegerP", "lua_isinteger"]
+- !private ["s17FixedWidthIntegerP", "lua_pushinteger"]
+- ["s17FixedWidthIntegerP", "push"]
+- ["s13FloatingPointP", "arg"]
+- !private ["s13FloatingPointP", "description"]
+- ["s13FloatingPointP", "kind"]
+- !private ["s13FloatingPointP", "lua_isinteger"]
+- !private ["s13FloatingPointP", "lua_pushnumber"]
+- ["s13FloatingPointP", "push"]
+- !private ["s8HashableP", "Int64"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- ["s8HashableP", "arg"]
+- !private ["s8HashableP", "description"]
+- !private ["s8HashableP", "init"]
+- ["s8HashableP", "kind"]
+- !private ["s8HashableP", "lua_isinteger"]
+- !private ["s8HashableP", "lua_pushinteger"]
+- !private ["s8HashableP", "lua_pushnumber"]
+- !private ["s8HashableP", "number"]
+- ["s8HashableP", "push"]
+- !private ["Si", "Int64"]
+- ["Si", "Kind"]
+- ["Si", "String"]
+- ["Si", "Value"]
+- ["Si", "VirtualMachine"]
+- ["Si", "arg"]
+- ["Si", "deinit"]
+- ["Si", "kind"]
+- !private ["Si", "lua_pushinteger"]
+- ["Si", "push"]
+- ["s5Int64V", "Kind"]
+- ["s5Int64V", "String"]
+- ["s5Int64V", "Value"]
+- ["s5Int64V", "VirtualMachine"]
+- ["s5Int64V", "arg"]
+- ["s5Int64V", "deinit"]
+- !private ["s5Int64V", "description"]
+- !private ["s5Int64V", "init"]
+- ["s5Int64V", "kind"]
+- !private ["s5Int64V", "lua_isinteger"]
+- !private ["s5Int64V", "lua_pushinteger"]
+- ["s5Int64V", "push"]
+- !private ["3Lua4KindO", "deinit"]
+- !private ["3Lua4KindO", "number"]
+- !private ["s25LosslessStringConvertibleP", "Int64"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s25LosslessStringConvertibleP", "arg"]
+- !private ["s25LosslessStringConvertibleP", "description"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- ["s25LosslessStringConvertibleP", "kind"]
+- !private ["s25LosslessStringConvertibleP", "lua_isinteger"]
+- !private ["s25LosslessStringConvertibleP", "lua_pushinteger"]
+- !private ["s25LosslessStringConvertibleP", "lua_pushnumber"]
+- ["s25LosslessStringConvertibleP", "push"]
+- !private ["s10MirrorPathP", "Int64"]
+- ["s10MirrorPathP", "arg"]
+- !private ["s10MirrorPathP", "init"]
+- ["s10MirrorPathP", "kind"]
+- !private ["s10MirrorPathP", "lua_pushinteger"]
+- ["s10MirrorPathP", "push"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So16NSMutableCopyingP", "init"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So8NSStringC", "init"]
+- ["3Lua6NumberC", "Double"]
+- ["3Lua6NumberC", "Int64"]
+- ["3Lua6NumberC", "Kind"]
+- ["3Lua6NumberC", "String"]
+- ["3Lua6NumberC", "Value"]
+- ["3Lua6NumberC", "VirtualMachine"]
+- ["3Lua6NumberC", "arg"]
+- ["3Lua6NumberC", "debugDescription"]
+- ["3Lua6NumberC", "deinit"]
+- ["3Lua6NumberC", "init"]
+- ["3Lua6NumberC", "kind"]
+- !private ["3Lua6NumberC", "lua_isinteger"]
+- !private ["3Lua6NumberC", "lua_tointegerx"]
+- !private ["3Lua6NumberC", "lua_tonumberx"]
+- !private ["3Lua6NumberC", "push"]
+- ["3Lua6NumberC", "toDouble"]
+- ["3Lua6NumberC", "toInteger"]
+- !private ["3Lua6NumberC", "vm"]
+- !private ["s7NumericP", "Int64"]
+- ["s7NumericP", "arg"]
+- !private ["s7NumericP", "description"]
+- !private ["s7NumericP", "init"]
+- ["s7NumericP", "kind"]
+- !private ["s7NumericP", "lua_isinteger"]
+- !private ["s7NumericP", "lua_pushinteger"]
+- !private ["s7NumericP", "lua_pushnumber"]
+- ["s7NumericP", "push"]
+- !private ["Sq", "number"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s8SequenceP", "init"]
+- !private ["s13SignedIntegerP", "Int64"]
+- ["s13SignedIntegerP", "arg"]
+- !private ["s13SignedIntegerP", "description"]
+- !private ["s13SignedIntegerP", "init"]
+- ["s13SignedIntegerP", "kind"]
+- !private ["s13SignedIntegerP", "lua_isinteger"]
+- !private ["s13SignedIntegerP", "lua_pushinteger"]
+- ["s13SignedIntegerP", "push"]
+- !private ["s13SignedNumericP", "Int64"]
+- ["s13SignedNumericP", "arg"]
+- !private ["s13SignedNumericP", "description"]
+- !private ["s13SignedNumericP", "init"]
+- ["s13SignedNumericP", "kind"]
+- !private ["s13SignedNumericP", "lua_isinteger"]
+- !private ["s13SignedNumericP", "lua_pushinteger"]
+- !private ["s13SignedNumericP", "lua_pushnumber"]
+- ["s13SignedNumericP", "push"]
+- ["3Lua11StoredValueC", "Double"]
+- ["3Lua11StoredValueC", "Int64"]
+- ["3Lua11StoredValueC", "Kind"]
+- ["3Lua11StoredValueC", "String"]
+- ["3Lua11StoredValueC", "Value"]
+- ["3Lua11StoredValueC", "VirtualMachine"]
+- ["3Lua11StoredValueC", "arg"]
+- ["3Lua11StoredValueC", "debugDescription"]
+- ["3Lua11StoredValueC", "init"]
+- ["3Lua11StoredValueC", "kind"]
+- !private ["3Lua11StoredValueC", "lua_isinteger"]
+- !private ["3Lua11StoredValueC", "lua_tointegerx"]
+- !private ["3Lua11StoredValueC", "lua_tonumberx"]
+- !private ["3Lua11StoredValueC", "push"]
+- ["3Lua11StoredValueC", "toDouble"]
+- ["3Lua11StoredValueC", "toInteger"]
+- !private ["3Lua11StoredValueC", "vm"]
+- ["3Lua11StoredValueC", ""]
+- !private ["s10StrideableP", "Int64"]
+- ["s10StrideableP", "arg"]
+- !private ["s10StrideableP", "description"]
+- !private ["s10StrideableP", "init"]
+- ["s10StrideableP", "kind"]
+- !private ["s10StrideableP", "lua_isinteger"]
+- !private ["s10StrideableP", "lua_pushinteger"]
+- !private ["s10StrideableP", "lua_pushnumber"]
+- ["s10StrideableP", "push"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["3Lua5ValueP", "Int64"]
+- !private ["3Lua5ValueP", "_getBuiltinLogicValue"]
+- ["3Lua5ValueP", "arg"]
+- ["3Lua5ValueP", "debugDescription"]
+- !private ["3Lua5ValueP", "description"]
+- !private ["3Lua5ValueP", "init"]
+- ["3Lua5ValueP", "kind"]
+- !private ["3Lua5ValueP", "lua_isinteger"]
+- !private ["3Lua5ValueP", "lua_pushinteger"]
+- !private ["3Lua5ValueP", "lua_pushnumber"]
+- !private ["3Lua5ValueP", "lua_tointegerx"]
+- !private ["3Lua5ValueP", "lua_tonumberx"]
+- ["3Lua5ValueP", "push"]
+- !private ["3Lua5ValueP", "toDouble"]
+- !private ["3Lua5ValueP", "toInteger"]
+- !private ["3Lua5ValueP", "vm"]
+- ["3Lua5ValueP", ""]
+- !private ["3Lua14VirtualMachineC", "pop"]
+- !private ["3Lua14VirtualMachineC", "vm"]
+- !private ["s23_BidirectionalIndexableP", "init"]
+- !private ["s18_BitwiseOperationsP", "Int64"]
+- ["s18_BitwiseOperationsP", "arg"]
+- !private ["s18_BitwiseOperationsP", "description"]
+- !private ["s18_BitwiseOperationsP", "init"]
+- ["s18_BitwiseOperationsP", "kind"]
+- !private ["s18_BitwiseOperationsP", "lua_isinteger"]
+- !private ["s18_BitwiseOperationsP", "lua_pushinteger"]
+- ["s18_BitwiseOperationsP", "push"]
+- ["s15_CVarArgAlignedP", "arg"]
+- !private ["s15_CVarArgAlignedP", "description"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- ["s15_CVarArgAlignedP", "kind"]
+- !private ["s15_CVarArgAlignedP", "lua_isinteger"]
+- !private ["s15_CVarArgAlignedP", "lua_pushinteger"]
+- !private ["s15_CVarArgAlignedP", "lua_pushnumber"]
+- ["s15_CVarArgAlignedP", "push"]
+- ["s22_CVarArgPassedAsDoubleP", "arg"]
+- !private ["s22_CVarArgPassedAsDoubleP", "description"]
+- ["s22_CVarArgPassedAsDoubleP", "kind"]
+- !private ["s22_CVarArgPassedAsDoubleP", "lua_isinteger"]
+- !private ["s22_CVarArgPassedAsDoubleP", "lua_pushnumber"]
+- ["s22_CVarArgPassedAsDoubleP", "push"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s33_ExpressibleByBuiltinFloatLiteralP", "arg"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "description"]
+- ["s33_ExpressibleByBuiltinFloatLiteralP", "kind"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "lua_isinteger"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "lua_pushnumber"]
+- ["s33_ExpressibleByBuiltinFloatLiteralP", "push"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "Int64"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "arg"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "description"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "kind"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "lua_isinteger"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "lua_pushinteger"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "lua_pushnumber"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "push"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s10_IndexableP", "init"]
+- !private ["s14_IndexableBaseP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "Int64"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- ["s21_ObjectiveCBridgeableP", "arg"]
+- !private ["s21_ObjectiveCBridgeableP", "description"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- ["s21_ObjectiveCBridgeableP", "kind"]
+- !private ["s21_ObjectiveCBridgeableP", "lua_isinteger"]
+- !private ["s21_ObjectiveCBridgeableP", "lua_pushinteger"]
+- !private ["s21_ObjectiveCBridgeableP", "lua_pushnumber"]
+- !private ["s21_ObjectiveCBridgeableP", "number"]
+- ["s21_ObjectiveCBridgeableP", "push"]
+- !private ["s26_OptionalNilComparisonTypeV", "number"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s11_StrideableP", "Int64"]
+- ["s11_StrideableP", "arg"]
+- !private ["s11_StrideableP", "description"]
+- !private ["s11_StrideableP", "init"]
+- ["s11_StrideableP", "kind"]
+- !private ["s11_StrideableP", "lua_isinteger"]
+- !private ["s11_StrideableP", "lua_pushinteger"]
+- !private ["s11_StrideableP", "lua_pushnumber"]
+- ["s11_StrideableP", "push"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "s23BidirectionalCollectionP"
+- "s19BinaryFloatingPointP"
+- "s13BinaryIntegerP"
+- !private "Sb"
+- "s7CVarArgP"
+- !private "s10CollectionP"
+- "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- "Sd"
+- "s9EncodableP"
+- "s9EquatableP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s25ExpressibleByFloatLiteralP"
+- "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s17FixedWidthIntegerP"
+- "s13FloatingPointP"
+- "s8HashableP"
+- "Si"
+- "s5Int64V"
+- !private "3Lua4KindO"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- "3Lua6NumberC"
+- "s7NumericP"
+- !private "Sq"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s8SequenceP"
+- "s13SignedIntegerP"
+- "s13SignedNumericP"
+- "3Lua11StoredValueC"
+- "s10StrideableP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- "3Lua5ValueP"
+- !private "3Lua14VirtualMachineC"
+- !private "s23_BidirectionalIndexableP"
+- "s18_BitwiseOperationsP"
+- "s15_CVarArgAlignedP"
+- "s22_CVarArgPassedAsDoubleP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s33_ExpressibleByBuiltinFloatLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- !private "s26_OptionalNilComparisonTypeV"
+- !private "s26_RangeReplaceableIndexableP"
+- "s11_StrideableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/harlan/Code/Swift/lua4swift/LuaSource/include/lua.h"
+- "/Users/harlan/Code/Swift/lua4swift/LuaSource/include/lualib.h"
+- "/Users/harlan/Code/Swift/lua4swift/LuaSource/include/lauxlib.h"
+- "/Users/harlan/Code/Swift/lua4swift/LuaSource/include/lgc.h"
+- "/Users/harlan/Code/Swift/lua4swift/LuaSource/include/lfunc.h"
+- "/Users/harlan/Code/Swift/lua4swift/LuaSource/include/lcode.h"
+- "/Users/harlan/Code/Swift/lua4swift/LuaSource/include/ltable.h"
+- "/Users/harlan/Code/Swift/lua4swift/LuaSource/include/lctype.h"
+- "/Users/harlan/Code/Swift/lua4swift/LuaSource/include/lstate.h"
+- "/Users/harlan/Code/Swift/lua4swift/LuaSource/include/luaconf.h"
+- "/Users/harlan/Code/Swift/lua4swift/LuaSource/include/lstring.h"
+- "/Users/harlan/Code/Swift/lua4swift/LuaSource/include/ldebug.h"
+- "/Users/harlan/Code/Swift/lua4swift/LuaSource/include/lapi.h"
+- "/Users/harlan/Code/Swift/lua4swift/LuaSource/include/lmem.h"
+- "/Users/harlan/Code/Swift/lua4swift/LuaSource/include/ltm.h"
+- "/Users/harlan/Code/Swift/lua4swift/LuaSource/include/lvm.h"
+- "/Users/harlan/Code/Swift/lua4swift/LuaSource/include/ldo.h"
+- "/Users/harlan/Code/Swift/lua4swift/LuaSource/include/lzio.h"
+- "/Users/harlan/Code/Swift/lua4swift/LuaSource/include/lundump.h"
+- "/Users/harlan/Code/Swift/lua4swift/LuaSource/include/lparser.h"
+- "/Users/harlan/Code/Swift/lua4swift/LuaSource/include/lopcodes.h"
+- "/Users/harlan/Code/Swift/lua4swift/LuaSource/include/llimits.h"
+- "/Users/harlan/Code/Swift/lua4swift/LuaSource/include/constants.h"
+- "/Users/harlan/Code/Swift/lua4swift/LuaSource/include/lobject.h"
+- "/Users/harlan/Code/Swift/lua4swift/LuaSource/include/llex.h"
+- "/Users/harlan/Code/Swift/lua4swift/LuaSource/include/lprefix.h"
+- "/Users/harlan/Code/Swift/lua4swift/LuaSource/include/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "6d17baffad7d7179386255d0f98980dd"

@@ -1,3 +1,5 @@
+import LuaSource
+import Foundation
 
 internal let RegistryIndex = Int(SDegutisLuaRegistryIndex)
 private let GlobalsTable = Int(LUA_RIDX_GLOBALS)

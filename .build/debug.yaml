@@ -1,0 +1,308 @@
+client:
+  name: swift-build
+tools: {}
+targets:
+  "main": ["<Lua.module>","<LuaSource.module>"]
+  "test": ["<Lua.module>","<LuaSource.module>"]
+  "Lua.module": ["<Lua.module>"]
+  "LuaSource.module": ["<LuaSource.module>"]
+default: "main"
+commands: 
+  "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/constants.c.o":
+    tool: clang
+    description: "Compile LuaSource src/constants.c"
+    inputs: ["/Users/harlan/Code/Swift/lua4swift/LuaSource/src/constants.c"]
+    outputs: ["/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/constants.c.o"]
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-target","x86_64-apple-macosx10.10","--sysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk","-arch","x86_64","-mmacosx-version-min=10.10","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-fobjc-arc","-fmodules","-fmodule-name=LuaSource","-I","/Users/harlan/Code/Swift/lua4swift/LuaSource/include","-fmodules-cache-path=/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/constants.c.d","-c","/Users/harlan/Code/Swift/lua4swift/LuaSource/src/constants.c","-o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/constants.c.o"]
+    deps: "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/constants.c.d"
+
+  "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lapi.c.o":
+    tool: clang
+    description: "Compile LuaSource src/lapi.c"
+    inputs: ["/Users/harlan/Code/Swift/lua4swift/LuaSource/src/lapi.c"]
+    outputs: ["/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lapi.c.o"]
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-target","x86_64-apple-macosx10.10","--sysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk","-arch","x86_64","-mmacosx-version-min=10.10","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-fobjc-arc","-fmodules","-fmodule-name=LuaSource","-I","/Users/harlan/Code/Swift/lua4swift/LuaSource/include","-fmodules-cache-path=/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lapi.c.d","-c","/Users/harlan/Code/Swift/lua4swift/LuaSource/src/lapi.c","-o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lapi.c.o"]
+    deps: "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lapi.c.d"
+
+  "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lauxlib.c.o":
+    tool: clang
+    description: "Compile LuaSource src/lauxlib.c"
+    inputs: ["/Users/harlan/Code/Swift/lua4swift/LuaSource/src/lauxlib.c"]
+    outputs: ["/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lauxlib.c.o"]
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-target","x86_64-apple-macosx10.10","--sysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk","-arch","x86_64","-mmacosx-version-min=10.10","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-fobjc-arc","-fmodules","-fmodule-name=LuaSource","-I","/Users/harlan/Code/Swift/lua4swift/LuaSource/include","-fmodules-cache-path=/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lauxlib.c.d","-c","/Users/harlan/Code/Swift/lua4swift/LuaSource/src/lauxlib.c","-o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lauxlib.c.o"]
+    deps: "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lauxlib.c.d"
+
+  "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lbaselib.c.o":
+    tool: clang
+    description: "Compile LuaSource src/lbaselib.c"
+    inputs: ["/Users/harlan/Code/Swift/lua4swift/LuaSource/src/lbaselib.c"]
+    outputs: ["/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lbaselib.c.o"]
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-target","x86_64-apple-macosx10.10","--sysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk","-arch","x86_64","-mmacosx-version-min=10.10","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-fobjc-arc","-fmodules","-fmodule-name=LuaSource","-I","/Users/harlan/Code/Swift/lua4swift/LuaSource/include","-fmodules-cache-path=/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lbaselib.c.d","-c","/Users/harlan/Code/Swift/lua4swift/LuaSource/src/lbaselib.c","-o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lbaselib.c.o"]
+    deps: "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lbaselib.c.d"
+
+  "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lbitlib.c.o":
+    tool: clang
+    description: "Compile LuaSource src/lbitlib.c"
+    inputs: ["/Users/harlan/Code/Swift/lua4swift/LuaSource/src/lbitlib.c"]
+    outputs: ["/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lbitlib.c.o"]
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-target","x86_64-apple-macosx10.10","--sysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk","-arch","x86_64","-mmacosx-version-min=10.10","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-fobjc-arc","-fmodules","-fmodule-name=LuaSource","-I","/Users/harlan/Code/Swift/lua4swift/LuaSource/include","-fmodules-cache-path=/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lbitlib.c.d","-c","/Users/harlan/Code/Swift/lua4swift/LuaSource/src/lbitlib.c","-o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lbitlib.c.o"]
+    deps: "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lbitlib.c.d"
+
+  "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lcode.c.o":
+    tool: clang
+    description: "Compile LuaSource src/lcode.c"
+    inputs: ["/Users/harlan/Code/Swift/lua4swift/LuaSource/src/lcode.c"]
+    outputs: ["/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lcode.c.o"]
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-target","x86_64-apple-macosx10.10","--sysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk","-arch","x86_64","-mmacosx-version-min=10.10","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-fobjc-arc","-fmodules","-fmodule-name=LuaSource","-I","/Users/harlan/Code/Swift/lua4swift/LuaSource/include","-fmodules-cache-path=/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lcode.c.d","-c","/Users/harlan/Code/Swift/lua4swift/LuaSource/src/lcode.c","-o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lcode.c.o"]
+    deps: "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lcode.c.d"
+
+  "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lcorolib.c.o":
+    tool: clang
+    description: "Compile LuaSource src/lcorolib.c"
+    inputs: ["/Users/harlan/Code/Swift/lua4swift/LuaSource/src/lcorolib.c"]
+    outputs: ["/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lcorolib.c.o"]
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-target","x86_64-apple-macosx10.10","--sysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk","-arch","x86_64","-mmacosx-version-min=10.10","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-fobjc-arc","-fmodules","-fmodule-name=LuaSource","-I","/Users/harlan/Code/Swift/lua4swift/LuaSource/include","-fmodules-cache-path=/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lcorolib.c.d","-c","/Users/harlan/Code/Swift/lua4swift/LuaSource/src/lcorolib.c","-o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lcorolib.c.o"]
+    deps: "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lcorolib.c.d"
+
+  "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lctype.c.o":
+    tool: clang
+    description: "Compile LuaSource src/lctype.c"
+    inputs: ["/Users/harlan/Code/Swift/lua4swift/LuaSource/src/lctype.c"]
+    outputs: ["/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lctype.c.o"]
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-target","x86_64-apple-macosx10.10","--sysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk","-arch","x86_64","-mmacosx-version-min=10.10","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-fobjc-arc","-fmodules","-fmodule-name=LuaSource","-I","/Users/harlan/Code/Swift/lua4swift/LuaSource/include","-fmodules-cache-path=/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lctype.c.d","-c","/Users/harlan/Code/Swift/lua4swift/LuaSource/src/lctype.c","-o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lctype.c.o"]
+    deps: "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lctype.c.d"
+
+  "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/ldblib.c.o":
+    tool: clang
+    description: "Compile LuaSource src/ldblib.c"
+    inputs: ["/Users/harlan/Code/Swift/lua4swift/LuaSource/src/ldblib.c"]
+    outputs: ["/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/ldblib.c.o"]
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-target","x86_64-apple-macosx10.10","--sysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk","-arch","x86_64","-mmacosx-version-min=10.10","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-fobjc-arc","-fmodules","-fmodule-name=LuaSource","-I","/Users/harlan/Code/Swift/lua4swift/LuaSource/include","-fmodules-cache-path=/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/ldblib.c.d","-c","/Users/harlan/Code/Swift/lua4swift/LuaSource/src/ldblib.c","-o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/ldblib.c.o"]
+    deps: "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/ldblib.c.d"
+
+  "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/ldebug.c.o":
+    tool: clang
+    description: "Compile LuaSource src/ldebug.c"
+    inputs: ["/Users/harlan/Code/Swift/lua4swift/LuaSource/src/ldebug.c"]
+    outputs: ["/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/ldebug.c.o"]
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-target","x86_64-apple-macosx10.10","--sysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk","-arch","x86_64","-mmacosx-version-min=10.10","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-fobjc-arc","-fmodules","-fmodule-name=LuaSource","-I","/Users/harlan/Code/Swift/lua4swift/LuaSource/include","-fmodules-cache-path=/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/ldebug.c.d","-c","/Users/harlan/Code/Swift/lua4swift/LuaSource/src/ldebug.c","-o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/ldebug.c.o"]
+    deps: "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/ldebug.c.d"
+
+  "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/ldo.c.o":
+    tool: clang
+    description: "Compile LuaSource src/ldo.c"
+    inputs: ["/Users/harlan/Code/Swift/lua4swift/LuaSource/src/ldo.c"]
+    outputs: ["/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/ldo.c.o"]
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-target","x86_64-apple-macosx10.10","--sysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk","-arch","x86_64","-mmacosx-version-min=10.10","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-fobjc-arc","-fmodules","-fmodule-name=LuaSource","-I","/Users/harlan/Code/Swift/lua4swift/LuaSource/include","-fmodules-cache-path=/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/ldo.c.d","-c","/Users/harlan/Code/Swift/lua4swift/LuaSource/src/ldo.c","-o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/ldo.c.o"]
+    deps: "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/ldo.c.d"
+
+  "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/ldump.c.o":
+    tool: clang
+    description: "Compile LuaSource src/ldump.c"
+    inputs: ["/Users/harlan/Code/Swift/lua4swift/LuaSource/src/ldump.c"]
+    outputs: ["/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/ldump.c.o"]
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-target","x86_64-apple-macosx10.10","--sysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk","-arch","x86_64","-mmacosx-version-min=10.10","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-fobjc-arc","-fmodules","-fmodule-name=LuaSource","-I","/Users/harlan/Code/Swift/lua4swift/LuaSource/include","-fmodules-cache-path=/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/ldump.c.d","-c","/Users/harlan/Code/Swift/lua4swift/LuaSource/src/ldump.c","-o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/ldump.c.o"]
+    deps: "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/ldump.c.d"
+
+  "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lfunc.c.o":
+    tool: clang
+    description: "Compile LuaSource src/lfunc.c"
+    inputs: ["/Users/harlan/Code/Swift/lua4swift/LuaSource/src/lfunc.c"]
+    outputs: ["/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lfunc.c.o"]
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-target","x86_64-apple-macosx10.10","--sysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk","-arch","x86_64","-mmacosx-version-min=10.10","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-fobjc-arc","-fmodules","-fmodule-name=LuaSource","-I","/Users/harlan/Code/Swift/lua4swift/LuaSource/include","-fmodules-cache-path=/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lfunc.c.d","-c","/Users/harlan/Code/Swift/lua4swift/LuaSource/src/lfunc.c","-o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lfunc.c.o"]
+    deps: "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lfunc.c.d"
+
+  "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lgc.c.o":
+    tool: clang
+    description: "Compile LuaSource src/lgc.c"
+    inputs: ["/Users/harlan/Code/Swift/lua4swift/LuaSource/src/lgc.c"]
+    outputs: ["/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lgc.c.o"]
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-target","x86_64-apple-macosx10.10","--sysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk","-arch","x86_64","-mmacosx-version-min=10.10","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-fobjc-arc","-fmodules","-fmodule-name=LuaSource","-I","/Users/harlan/Code/Swift/lua4swift/LuaSource/include","-fmodules-cache-path=/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lgc.c.d","-c","/Users/harlan/Code/Swift/lua4swift/LuaSource/src/lgc.c","-o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lgc.c.o"]
+    deps: "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lgc.c.d"
+
+  "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/linit.c.o":
+    tool: clang
+    description: "Compile LuaSource src/linit.c"
+    inputs: ["/Users/harlan/Code/Swift/lua4swift/LuaSource/src/linit.c"]
+    outputs: ["/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/linit.c.o"]
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-target","x86_64-apple-macosx10.10","--sysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk","-arch","x86_64","-mmacosx-version-min=10.10","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-fobjc-arc","-fmodules","-fmodule-name=LuaSource","-I","/Users/harlan/Code/Swift/lua4swift/LuaSource/include","-fmodules-cache-path=/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/linit.c.d","-c","/Users/harlan/Code/Swift/lua4swift/LuaSource/src/linit.c","-o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/linit.c.o"]
+    deps: "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/linit.c.d"
+
+  "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/liolib.c.o":
+    tool: clang
+    description: "Compile LuaSource src/liolib.c"
+    inputs: ["/Users/harlan/Code/Swift/lua4swift/LuaSource/src/liolib.c"]
+    outputs: ["/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/liolib.c.o"]
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-target","x86_64-apple-macosx10.10","--sysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk","-arch","x86_64","-mmacosx-version-min=10.10","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-fobjc-arc","-fmodules","-fmodule-name=LuaSource","-I","/Users/harlan/Code/Swift/lua4swift/LuaSource/include","-fmodules-cache-path=/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/liolib.c.d","-c","/Users/harlan/Code/Swift/lua4swift/LuaSource/src/liolib.c","-o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/liolib.c.o"]
+    deps: "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/liolib.c.d"
+
+  "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/llex.c.o":
+    tool: clang
+    description: "Compile LuaSource src/llex.c"
+    inputs: ["/Users/harlan/Code/Swift/lua4swift/LuaSource/src/llex.c"]
+    outputs: ["/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/llex.c.o"]
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-target","x86_64-apple-macosx10.10","--sysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk","-arch","x86_64","-mmacosx-version-min=10.10","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-fobjc-arc","-fmodules","-fmodule-name=LuaSource","-I","/Users/harlan/Code/Swift/lua4swift/LuaSource/include","-fmodules-cache-path=/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/llex.c.d","-c","/Users/harlan/Code/Swift/lua4swift/LuaSource/src/llex.c","-o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/llex.c.o"]
+    deps: "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/llex.c.d"
+
+  "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lmathlib.c.o":
+    tool: clang
+    description: "Compile LuaSource src/lmathlib.c"
+    inputs: ["/Users/harlan/Code/Swift/lua4swift/LuaSource/src/lmathlib.c"]
+    outputs: ["/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lmathlib.c.o"]
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-target","x86_64-apple-macosx10.10","--sysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk","-arch","x86_64","-mmacosx-version-min=10.10","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-fobjc-arc","-fmodules","-fmodule-name=LuaSource","-I","/Users/harlan/Code/Swift/lua4swift/LuaSource/include","-fmodules-cache-path=/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lmathlib.c.d","-c","/Users/harlan/Code/Swift/lua4swift/LuaSource/src/lmathlib.c","-o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lmathlib.c.o"]
+    deps: "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lmathlib.c.d"
+
+  "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lmem.c.o":
+    tool: clang
+    description: "Compile LuaSource src/lmem.c"
+    inputs: ["/Users/harlan/Code/Swift/lua4swift/LuaSource/src/lmem.c"]
+    outputs: ["/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lmem.c.o"]
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-target","x86_64-apple-macosx10.10","--sysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk","-arch","x86_64","-mmacosx-version-min=10.10","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-fobjc-arc","-fmodules","-fmodule-name=LuaSource","-I","/Users/harlan/Code/Swift/lua4swift/LuaSource/include","-fmodules-cache-path=/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lmem.c.d","-c","/Users/harlan/Code/Swift/lua4swift/LuaSource/src/lmem.c","-o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lmem.c.o"]
+    deps: "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lmem.c.d"
+
+  "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/loadlib.c.o":
+    tool: clang
+    description: "Compile LuaSource src/loadlib.c"
+    inputs: ["/Users/harlan/Code/Swift/lua4swift/LuaSource/src/loadlib.c"]
+    outputs: ["/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/loadlib.c.o"]
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-target","x86_64-apple-macosx10.10","--sysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk","-arch","x86_64","-mmacosx-version-min=10.10","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-fobjc-arc","-fmodules","-fmodule-name=LuaSource","-I","/Users/harlan/Code/Swift/lua4swift/LuaSource/include","-fmodules-cache-path=/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/loadlib.c.d","-c","/Users/harlan/Code/Swift/lua4swift/LuaSource/src/loadlib.c","-o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/loadlib.c.o"]
+    deps: "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/loadlib.c.d"
+
+  "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lobject.c.o":
+    tool: clang
+    description: "Compile LuaSource src/lobject.c"
+    inputs: ["/Users/harlan/Code/Swift/lua4swift/LuaSource/src/lobject.c"]
+    outputs: ["/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lobject.c.o"]
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-target","x86_64-apple-macosx10.10","--sysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk","-arch","x86_64","-mmacosx-version-min=10.10","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-fobjc-arc","-fmodules","-fmodule-name=LuaSource","-I","/Users/harlan/Code/Swift/lua4swift/LuaSource/include","-fmodules-cache-path=/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lobject.c.d","-c","/Users/harlan/Code/Swift/lua4swift/LuaSource/src/lobject.c","-o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lobject.c.o"]
+    deps: "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lobject.c.d"
+
+  "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lopcodes.c.o":
+    tool: clang
+    description: "Compile LuaSource src/lopcodes.c"
+    inputs: ["/Users/harlan/Code/Swift/lua4swift/LuaSource/src/lopcodes.c"]
+    outputs: ["/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lopcodes.c.o"]
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-target","x86_64-apple-macosx10.10","--sysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk","-arch","x86_64","-mmacosx-version-min=10.10","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-fobjc-arc","-fmodules","-fmodule-name=LuaSource","-I","/Users/harlan/Code/Swift/lua4swift/LuaSource/include","-fmodules-cache-path=/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lopcodes.c.d","-c","/Users/harlan/Code/Swift/lua4swift/LuaSource/src/lopcodes.c","-o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lopcodes.c.o"]
+    deps: "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lopcodes.c.d"
+
+  "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/loslib.c.o":
+    tool: clang
+    description: "Compile LuaSource src/loslib.c"
+    inputs: ["/Users/harlan/Code/Swift/lua4swift/LuaSource/src/loslib.c"]
+    outputs: ["/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/loslib.c.o"]
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-target","x86_64-apple-macosx10.10","--sysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk","-arch","x86_64","-mmacosx-version-min=10.10","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-fobjc-arc","-fmodules","-fmodule-name=LuaSource","-I","/Users/harlan/Code/Swift/lua4swift/LuaSource/include","-fmodules-cache-path=/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/loslib.c.d","-c","/Users/harlan/Code/Swift/lua4swift/LuaSource/src/loslib.c","-o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/loslib.c.o"]
+    deps: "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/loslib.c.d"
+
+  "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lparser.c.o":
+    tool: clang
+    description: "Compile LuaSource src/lparser.c"
+    inputs: ["/Users/harlan/Code/Swift/lua4swift/LuaSource/src/lparser.c"]
+    outputs: ["/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lparser.c.o"]
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-target","x86_64-apple-macosx10.10","--sysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk","-arch","x86_64","-mmacosx-version-min=10.10","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-fobjc-arc","-fmodules","-fmodule-name=LuaSource","-I","/Users/harlan/Code/Swift/lua4swift/LuaSource/include","-fmodules-cache-path=/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lparser.c.d","-c","/Users/harlan/Code/Swift/lua4swift/LuaSource/src/lparser.c","-o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lparser.c.o"]
+    deps: "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lparser.c.d"
+
+  "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lstate.c.o":
+    tool: clang
+    description: "Compile LuaSource src/lstate.c"
+    inputs: ["/Users/harlan/Code/Swift/lua4swift/LuaSource/src/lstate.c"]
+    outputs: ["/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lstate.c.o"]
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-target","x86_64-apple-macosx10.10","--sysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk","-arch","x86_64","-mmacosx-version-min=10.10","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-fobjc-arc","-fmodules","-fmodule-name=LuaSource","-I","/Users/harlan/Code/Swift/lua4swift/LuaSource/include","-fmodules-cache-path=/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lstate.c.d","-c","/Users/harlan/Code/Swift/lua4swift/LuaSource/src/lstate.c","-o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lstate.c.o"]
+    deps: "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lstate.c.d"
+
+  "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lstring.c.o":
+    tool: clang
+    description: "Compile LuaSource src/lstring.c"
+    inputs: ["/Users/harlan/Code/Swift/lua4swift/LuaSource/src/lstring.c"]
+    outputs: ["/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lstring.c.o"]
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-target","x86_64-apple-macosx10.10","--sysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk","-arch","x86_64","-mmacosx-version-min=10.10","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-fobjc-arc","-fmodules","-fmodule-name=LuaSource","-I","/Users/harlan/Code/Swift/lua4swift/LuaSource/include","-fmodules-cache-path=/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lstring.c.d","-c","/Users/harlan/Code/Swift/lua4swift/LuaSource/src/lstring.c","-o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lstring.c.o"]
+    deps: "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lstring.c.d"
+
+  "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lstrlib.c.o":
+    tool: clang
+    description: "Compile LuaSource src/lstrlib.c"
+    inputs: ["/Users/harlan/Code/Swift/lua4swift/LuaSource/src/lstrlib.c"]
+    outputs: ["/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lstrlib.c.o"]
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-target","x86_64-apple-macosx10.10","--sysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk","-arch","x86_64","-mmacosx-version-min=10.10","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-fobjc-arc","-fmodules","-fmodule-name=LuaSource","-I","/Users/harlan/Code/Swift/lua4swift/LuaSource/include","-fmodules-cache-path=/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lstrlib.c.d","-c","/Users/harlan/Code/Swift/lua4swift/LuaSource/src/lstrlib.c","-o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lstrlib.c.o"]
+    deps: "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lstrlib.c.d"
+
+  "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/ltable.c.o":
+    tool: clang
+    description: "Compile LuaSource src/ltable.c"
+    inputs: ["/Users/harlan/Code/Swift/lua4swift/LuaSource/src/ltable.c"]
+    outputs: ["/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/ltable.c.o"]
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-target","x86_64-apple-macosx10.10","--sysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk","-arch","x86_64","-mmacosx-version-min=10.10","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-fobjc-arc","-fmodules","-fmodule-name=LuaSource","-I","/Users/harlan/Code/Swift/lua4swift/LuaSource/include","-fmodules-cache-path=/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/ltable.c.d","-c","/Users/harlan/Code/Swift/lua4swift/LuaSource/src/ltable.c","-o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/ltable.c.o"]
+    deps: "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/ltable.c.d"
+
+  "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/ltablib.c.o":
+    tool: clang
+    description: "Compile LuaSource src/ltablib.c"
+    inputs: ["/Users/harlan/Code/Swift/lua4swift/LuaSource/src/ltablib.c"]
+    outputs: ["/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/ltablib.c.o"]
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-target","x86_64-apple-macosx10.10","--sysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk","-arch","x86_64","-mmacosx-version-min=10.10","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-fobjc-arc","-fmodules","-fmodule-name=LuaSource","-I","/Users/harlan/Code/Swift/lua4swift/LuaSource/include","-fmodules-cache-path=/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/ltablib.c.d","-c","/Users/harlan/Code/Swift/lua4swift/LuaSource/src/ltablib.c","-o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/ltablib.c.o"]
+    deps: "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/ltablib.c.d"
+
+  "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/ltm.c.o":
+    tool: clang
+    description: "Compile LuaSource src/ltm.c"
+    inputs: ["/Users/harlan/Code/Swift/lua4swift/LuaSource/src/ltm.c"]
+    outputs: ["/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/ltm.c.o"]
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-target","x86_64-apple-macosx10.10","--sysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk","-arch","x86_64","-mmacosx-version-min=10.10","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-fobjc-arc","-fmodules","-fmodule-name=LuaSource","-I","/Users/harlan/Code/Swift/lua4swift/LuaSource/include","-fmodules-cache-path=/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/ltm.c.d","-c","/Users/harlan/Code/Swift/lua4swift/LuaSource/src/ltm.c","-o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/ltm.c.o"]
+    deps: "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/ltm.c.d"
+
+  "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lundump.c.o":
+    tool: clang
+    description: "Compile LuaSource src/lundump.c"
+    inputs: ["/Users/harlan/Code/Swift/lua4swift/LuaSource/src/lundump.c"]
+    outputs: ["/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lundump.c.o"]
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-target","x86_64-apple-macosx10.10","--sysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk","-arch","x86_64","-mmacosx-version-min=10.10","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-fobjc-arc","-fmodules","-fmodule-name=LuaSource","-I","/Users/harlan/Code/Swift/lua4swift/LuaSource/include","-fmodules-cache-path=/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lundump.c.d","-c","/Users/harlan/Code/Swift/lua4swift/LuaSource/src/lundump.c","-o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lundump.c.o"]
+    deps: "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lundump.c.d"
+
+  "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lutf8lib.c.o":
+    tool: clang
+    description: "Compile LuaSource src/lutf8lib.c"
+    inputs: ["/Users/harlan/Code/Swift/lua4swift/LuaSource/src/lutf8lib.c"]
+    outputs: ["/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lutf8lib.c.o"]
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-target","x86_64-apple-macosx10.10","--sysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk","-arch","x86_64","-mmacosx-version-min=10.10","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-fobjc-arc","-fmodules","-fmodule-name=LuaSource","-I","/Users/harlan/Code/Swift/lua4swift/LuaSource/include","-fmodules-cache-path=/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lutf8lib.c.d","-c","/Users/harlan/Code/Swift/lua4swift/LuaSource/src/lutf8lib.c","-o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lutf8lib.c.o"]
+    deps: "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lutf8lib.c.d"
+
+  "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lvm.c.o":
+    tool: clang
+    description: "Compile LuaSource src/lvm.c"
+    inputs: ["/Users/harlan/Code/Swift/lua4swift/LuaSource/src/lvm.c"]
+    outputs: ["/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lvm.c.o"]
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-target","x86_64-apple-macosx10.10","--sysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk","-arch","x86_64","-mmacosx-version-min=10.10","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-fobjc-arc","-fmodules","-fmodule-name=LuaSource","-I","/Users/harlan/Code/Swift/lua4swift/LuaSource/include","-fmodules-cache-path=/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lvm.c.d","-c","/Users/harlan/Code/Swift/lua4swift/LuaSource/src/lvm.c","-o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lvm.c.o"]
+    deps: "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lvm.c.d"
+
+  "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lzio.c.o":
+    tool: clang
+    description: "Compile LuaSource src/lzio.c"
+    inputs: ["/Users/harlan/Code/Swift/lua4swift/LuaSource/src/lzio.c"]
+    outputs: ["/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lzio.c.o"]
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-target","x86_64-apple-macosx10.10","--sysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk","-arch","x86_64","-mmacosx-version-min=10.10","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-fobjc-arc","-fmodules","-fmodule-name=LuaSource","-I","/Users/harlan/Code/Swift/lua4swift/LuaSource/include","-fmodules-cache-path=/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lzio.c.d","-c","/Users/harlan/Code/Swift/lua4swift/LuaSource/src/lzio.c","-o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lzio.c.o"]
+    deps: "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lzio.c.d"
+
+  "<C.Lua.module>":
+    tool: phony
+    inputs: ["/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/Lua.swiftmodule"]
+    outputs: ["<Lua.module>"]
+
+  "<C.LuaSource.module>":
+    tool: phony
+    inputs: ["/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/constants.c.o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lapi.c.o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lauxlib.c.o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lbaselib.c.o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lbitlib.c.o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lcode.c.o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lcorolib.c.o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lctype.c.o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/ldblib.c.o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/ldebug.c.o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/ldo.c.o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/ldump.c.o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lfunc.c.o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lgc.c.o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/linit.c.o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/liolib.c.o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/llex.c.o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lmathlib.c.o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lmem.c.o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/loadlib.c.o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lobject.c.o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lopcodes.c.o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/loslib.c.o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lparser.c.o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lstate.c.o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lstring.c.o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lstrlib.c.o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/ltable.c.o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/ltablib.c.o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/ltm.c.o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lundump.c.o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lutf8lib.c.o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lvm.c.o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lzio.c.o"]
+    outputs: ["<LuaSource.module>"]
+
+  "C.Lua.module":
+    tool: swift-compiler
+    executable: "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    module-name: "Lua"
+    module-output-path: "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/Lua.swiftmodule"
+    inputs: ["/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/constants.c.o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lapi.c.o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lauxlib.c.o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lbaselib.c.o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lbitlib.c.o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lcode.c.o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lcorolib.c.o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lctype.c.o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/ldblib.c.o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/ldebug.c.o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/ldo.c.o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/ldump.c.o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lfunc.c.o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lgc.c.o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/linit.c.o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/liolib.c.o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/llex.c.o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lmathlib.c.o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lmem.c.o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/loadlib.c.o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lobject.c.o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lopcodes.c.o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/loslib.c.o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lparser.c.o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lstate.c.o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lstring.c.o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lstrlib.c.o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/ltable.c.o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/ltablib.c.o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/ltm.c.o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lundump.c.o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lutf8lib.c.o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lvm.c.o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/LuaSource.build/src/lzio.c.o","/Users/harlan/Code/Swift/lua4swift/Lua/Boolean.swift","/Users/harlan/Code/Swift/lua4swift/Lua/ExtraTypes.swift","/Users/harlan/Code/Swift/lua4swift/Lua/Function.swift","/Users/harlan/Code/Swift/lua4swift/Lua/Nil.swift","/Users/harlan/Code/Swift/lua4swift/Lua/Number.swift","/Users/harlan/Code/Swift/lua4swift/Lua/String.swift","/Users/harlan/Code/Swift/lua4swift/Lua/Table.swift","/Users/harlan/Code/Swift/lua4swift/Lua/Thread.swift","/Users/harlan/Code/Swift/lua4swift/Lua/Userdata.swift","/Users/harlan/Code/Swift/lua4swift/Lua/Value.swift","/Users/harlan/Code/Swift/lua4swift/Lua/VirtualMachine.swift"]
+    outputs: ["/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/Lua.build/Boolean.swift.o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/Lua.build/ExtraTypes.swift.o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/Lua.build/Function.swift.o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/Lua.build/Nil.swift.o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/Lua.build/Number.swift.o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/Lua.build/String.swift.o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/Lua.build/Table.swift.o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/Lua.build/Thread.swift.o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/Lua.build/Userdata.swift.o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/Lua.build/Value.swift.o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/Lua.build/VirtualMachine.swift.o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/Lua.swiftmodule"]
+    import-paths: ["/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug"]
+    temps-path: "/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/Lua.build"
+    objects: ["/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/Lua.build/Boolean.swift.o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/Lua.build/ExtraTypes.swift.o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/Lua.build/Function.swift.o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/Lua.build/Nil.swift.o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/Lua.build/Number.swift.o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/Lua.build/String.swift.o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/Lua.build/Table.swift.o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/Lua.build/Thread.swift.o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/Lua.build/Userdata.swift.o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/Lua.build/Value.swift.o","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/Lua.build/VirtualMachine.swift.o"]
+    other-args: ["-swift-version","4","-target","x86_64-apple-macosx10.10","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-Onone","-g","-enable-testing","-j8","-DSWIFT_PACKAGE","-Xcc","-fmodule-map-file=/Users/harlan/Code/Swift/lua4swift/LuaSource/include/module.modulemap","-I","/Users/harlan/Code/Swift/lua4swift/LuaSource/include","-module-cache-path","/Users/harlan/Code/Swift/lua4swift/.build/x86_64-apple-macosx10.10/debug/ModuleCache"]
+    sources: ["/Users/harlan/Code/Swift/lua4swift/Lua/Boolean.swift","/Users/harlan/Code/Swift/lua4swift/Lua/ExtraTypes.swift","/Users/harlan/Code/Swift/lua4swift/Lua/Function.swift","/Users/harlan/Code/Swift/lua4swift/Lua/Nil.swift","/Users/harlan/Code/Swift/lua4swift/Lua/Number.swift","/Users/harlan/Code/Swift/lua4swift/Lua/String.swift","/Users/harlan/Code/Swift/lua4swift/Lua/Table.swift","/Users/harlan/Code/Swift/lua4swift/Lua/Thread.swift","/Users/harlan/Code/Swift/lua4swift/Lua/Userdata.swift","/Users/harlan/Code/Swift/lua4swift/Lua/Value.swift","/Users/harlan/Code/Swift/lua4swift/Lua/VirtualMachine.swift"]
+    is-library: true
+    enable-whole-module-optimization: false
+    num-threads: "8"
+

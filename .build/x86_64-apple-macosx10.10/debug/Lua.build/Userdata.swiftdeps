@@ -1,0 +1,416 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Userdata"
+- "LightUserdata"
+- "CustomTypeInstance"
+- "CustomType"
+provides-nominal:
+- "3Lua8UserdataC"
+- "3Lua13LightUserdataC"
+- "3Lua18CustomTypeInstanceP"
+- "3Lua10CustomTypeC"
+provides-member:
+- ["3Lua8UserdataC", ""]
+- ["3Lua13LightUserdataC", ""]
+- ["3Lua18CustomTypeInstanceP", ""]
+- ["3Lua10CustomTypeC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "!="
+- "Arguments"
+- "Bool"
+- "CastingPrecedence"
+- "CustomType"
+- "CustomTypeInstance"
+- !private "FloatLiteralType"
+- "Function"
+- !private "IntegerLiteralType"
+- "Kind"
+- "LightUserdata"
+- !private "NSString"
+- "StoredValue"
+- "String"
+- !private "StringLiteralType"
+- "SwiftReturnValue"
+- "Table"
+- "TypeChecker"
+- "UnsafeMutablePointer"
+- "Userdata"
+- "Value"
+- "VirtualMachine"
+- "Void"
+- !private "luaL_testudata"
+- !private "lua_touserdata"
+depends-member:
+- !private ["3Lua9ArgumentsC", "customType"]
+- !private ["Sa", "insert"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "insert"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "insert"]
+- !private ["s7CVarArgP", "pointee"]
+- !private ["s7CVarArgP", "utf8String"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "insert"]
+- !private ["s10ComparableP", "assumingMemoryBound"]
+- !private ["s10ComparableP", "init"]
+- !private ["s10ComparableP", "pointee"]
+- !private ["s28CustomDebugStringConvertibleP", "assumingMemoryBound"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "insert"]
+- !private ["s28CustomDebugStringConvertibleP", "lightUserdata"]
+- !private ["s28CustomDebugStringConvertibleP", "pointee"]
+- !private ["s28CustomDebugStringConvertibleP", "utf8String"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "assumingMemoryBound"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "pointee"]
+- !private ["s29CustomPlaygroundQuickLookableP", "utf8String"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "assumingMemoryBound"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "insert"]
+- !private ["s17CustomReflectableP", "lightUserdata"]
+- !private ["s17CustomReflectableP", "pointee"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "insert"]
+- !private ["s23CustomStringConvertibleP", "utf8String"]
+- ["3Lua10CustomTypeC", "Arguments"]
+- ["3Lua10CustomTypeC", "Bool"]
+- !private ["3Lua10CustomTypeC", "CustomType"]
+- ["3Lua10CustomTypeC", "Function"]
+- !private ["3Lua10CustomTypeC", "NSString"]
+- ["3Lua10CustomTypeC", "String"]
+- ["3Lua10CustomTypeC", "SwiftReturnValue"]
+- ["3Lua10CustomTypeC", "T"]
+- ["3Lua10CustomTypeC", "TypeChecker"]
+- ["3Lua10CustomTypeC", "Value"]
+- ["3Lua10CustomTypeC", "VirtualMachine"]
+- ["3Lua10CustomTypeC", "Void"]
+- ["3Lua10CustomTypeC", "arg"]
+- ["3Lua10CustomTypeC", "createMethod"]
+- ["3Lua10CustomTypeC", "deinit"]
+- ["3Lua10CustomTypeC", "eq"]
+- ["3Lua10CustomTypeC", "gc"]
+- ["3Lua10CustomTypeC", "init"]
+- !private ["3Lua10CustomTypeC", "luaL_testudata"]
+- !private ["3Lua10CustomTypeC", "vm"]
+- ["3Lua18CustomTypeInstanceP", "String"]
+- ["3Lua18CustomTypeInstanceP", "luaTypeName"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "insert"]
+- !private ["s9DecodableP", "lightUserdata"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "insert"]
+- !private ["s9EncodableP", "lightUserdata"]
+- !private ["s9EquatableP", "CustomType"]
+- !private ["s9EquatableP", "T"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "arg"]
+- !private ["s9EquatableP", "assumingMemoryBound"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "lightUserdata"]
+- !private ["s9EquatableP", "luaL_testudata"]
+- !private ["s9EquatableP", "lua_touserdata"]
+- !private ["s9EquatableP", "pointee"]
+- !private ["s9EquatableP", "push"]
+- !private ["s9EquatableP", "userdata"]
+- !private ["s9EquatableP", "userdataPointer"]
+- !private ["s9EquatableP", "utf8String"]
+- !private ["s9EquatableP", "vm"]
+- ["s9EquatableP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "insert"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "utf8String"]
+- !private ["s23ExpressibleByNilLiteralP", "lightUserdata"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "utf8String"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "utf8String"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "assumingMemoryBound"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "lightUserdata"]
+- !private ["s8HashableP", "pointee"]
+- !private ["s8HashableP", "userdata"]
+- !private ["s8HashableP", "utf8String"]
+- !private ["3Lua4KindO", "deinit"]
+- !private ["3Lua4KindO", "lightUserdata"]
+- !private ["3Lua4KindO", "userdata"]
+- ["3Lua13LightUserdataC", "Kind"]
+- ["3Lua13LightUserdataC", "String"]
+- ["3Lua13LightUserdataC", "Value"]
+- ["3Lua13LightUserdataC", "VirtualMachine"]
+- ["3Lua13LightUserdataC", "arg"]
+- ["3Lua13LightUserdataC", "deinit"]
+- ["3Lua13LightUserdataC", "init"]
+- ["3Lua13LightUserdataC", "kind"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s17MutableCollectionP", "insert"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "utf8String"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "utf8String"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderReadingP", "utf8String"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So21NSItemProviderWritingP", "utf8String"]
+- !private ["So16NSMutableCopyingP", "init"]
+- !private ["So16NSMutableCopyingP", "utf8String"]
+- !private ["So8NSObjectC", "utf8String"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "utf8String"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "utf8String"]
+- !private ["So8NSStringC", "init"]
+- !private ["So8NSStringC", "utf8String"]
+- !private ["Sq", "lightUserdata"]
+- !private ["s22RandomAccessCollectionP", "insert"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "insert"]
+- !private ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "insert"]
+- ["3Lua11StoredValueC", "Arguments"]
+- ["3Lua11StoredValueC", "Bool"]
+- !private ["3Lua11StoredValueC", "CustomType"]
+- ["3Lua11StoredValueC", "CustomTypeInstance"]
+- ["3Lua11StoredValueC", "Function"]
+- ["3Lua11StoredValueC", "Kind"]
+- !private ["3Lua11StoredValueC", "NSString"]
+- ["3Lua11StoredValueC", "String"]
+- ["3Lua11StoredValueC", "SwiftReturnValue"]
+- ["3Lua11StoredValueC", "T"]
+- ["3Lua11StoredValueC", "TypeChecker"]
+- ["3Lua11StoredValueC", "UnsafeMutablePointer"]
+- ["3Lua11StoredValueC", "Value"]
+- ["3Lua11StoredValueC", "VirtualMachine"]
+- ["3Lua11StoredValueC", "Void"]
+- ["3Lua11StoredValueC", "arg"]
+- ["3Lua11StoredValueC", "createMethod"]
+- ["3Lua11StoredValueC", "eq"]
+- ["3Lua11StoredValueC", "gc"]
+- ["3Lua11StoredValueC", "init"]
+- ["3Lua11StoredValueC", "kind"]
+- !private ["3Lua11StoredValueC", "luaL_testudata"]
+- !private ["3Lua11StoredValueC", "lua_touserdata"]
+- !private ["3Lua11StoredValueC", "push"]
+- ["3Lua11StoredValueC", "toAny"]
+- ["3Lua11StoredValueC", "toCustomType"]
+- ["3Lua11StoredValueC", "userdataPointer"]
+- !private ["3Lua11StoredValueC", "vm"]
+- ["3Lua11StoredValueC", ""]
+- !private ["s10StrideableP", "assumingMemoryBound"]
+- !private ["s10StrideableP", "pointee"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- ["3Lua5TableC", "Arguments"]
+- ["3Lua5TableC", "Bool"]
+- !private ["3Lua5TableC", "CustomType"]
+- ["3Lua5TableC", "Function"]
+- !private ["3Lua5TableC", "NSString"]
+- ["3Lua5TableC", "String"]
+- ["3Lua5TableC", "SwiftReturnValue"]
+- ["3Lua5TableC", "T"]
+- ["3Lua5TableC", "TypeChecker"]
+- ["3Lua5TableC", "Value"]
+- ["3Lua5TableC", "VirtualMachine"]
+- ["3Lua5TableC", "Void"]
+- ["3Lua5TableC", "arg"]
+- ["3Lua5TableC", "createMethod"]
+- ["3Lua5TableC", "eq"]
+- ["3Lua5TableC", "gc"]
+- ["3Lua5TableC", "init"]
+- !private ["3Lua5TableC", "luaL_testudata"]
+- !private ["3Lua5TableC", "vm"]
+- ["3Lua5TableC", ""]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["Sp", "pointee"]
+- !private ["Sv", "assumingMemoryBound"]
+- ["3Lua8UserdataC", "CustomTypeInstance"]
+- ["3Lua8UserdataC", "Kind"]
+- ["3Lua8UserdataC", "UnsafeMutablePointer"]
+- ["3Lua8UserdataC", "deinit"]
+- ["3Lua8UserdataC", "init"]
+- ["3Lua8UserdataC", "kind"]
+- !private ["3Lua8UserdataC", "lua_touserdata"]
+- !private ["3Lua8UserdataC", "push"]
+- ["3Lua8UserdataC", "toAny"]
+- ["3Lua8UserdataC", "toCustomType"]
+- ["3Lua8UserdataC", "userdataPointer"]
+- !private ["3Lua8UserdataC", "vm"]
+- !private ["3Lua5ValueP", "CustomType"]
+- !private ["3Lua5ValueP", "T"]
+- !private ["3Lua5ValueP", "_getBuiltinLogicValue"]
+- !private ["3Lua5ValueP", "arg"]
+- !private ["3Lua5ValueP", "init"]
+- !private ["3Lua5ValueP", "kind"]
+- !private ["3Lua5ValueP", "luaL_testudata"]
+- !private ["3Lua5ValueP", "lua_touserdata"]
+- !private ["3Lua5ValueP", "push"]
+- !private ["3Lua5ValueP", "userdataPointer"]
+- !private ["3Lua5ValueP", "vm"]
+- ["3Lua5ValueP", ""]
+- !private ["3Lua14VirtualMachineC", "createFunction"]
+- !private ["3Lua14VirtualMachineC", "pop"]
+- !private ["3Lua14VirtualMachineC", "vm"]
+- !private ["s14_ArrayProtocolP", "insert"]
+- !private ["s23_BidirectionalIndexableP", "init"]
+- !private ["s23_BidirectionalIndexableP", "insert"]
+- !private ["s24_DestructorSafeContainerP", "insert"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "utf8String"]
+- !private ["s10_IndexableP", "init"]
+- !private ["s10_IndexableP", "insert"]
+- !private ["s14_IndexableBaseP", "init"]
+- !private ["s14_IndexableBaseP", "insert"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "utf8String"]
+- !private ["s17_MutableIndexableP", "insert"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "insert"]
+- !private ["s21_ObjectiveCBridgeableP", "lightUserdata"]
+- !private ["s26_OptionalNilComparisonTypeV", "lightUserdata"]
+- !private ["s8_PointerP", "assumingMemoryBound"]
+- !private ["s8_PointerP", "pointee"]
+- !private ["s22_RandomAccessIndexableP", "insert"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s26_RangeReplaceableIndexableP", "insert"]
+- !private ["s11_StrideableP", "assumingMemoryBound"]
+- !private ["s11_StrideableP", "pointee"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "3Lua9ArgumentsC"
+- !private "Sa"
+- !private "s23BidirectionalCollectionP"
+- !private "Sb"
+- !private "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- "3Lua10CustomTypeC"
+- "3Lua18CustomTypeInstanceP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s8HashableP"
+- !private "3Lua4KindO"
+- "3Lua13LightUserdataC"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- !private "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "Sq"
+- !private "s22RandomAccessCollectionP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s8SequenceP"
+- "3Lua11StoredValueC"
+- !private "s10StrideableP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- "3Lua5TableC"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "Sp"
+- !private "Sv"
+- "3Lua8UserdataC"
+- "3Lua5ValueP"
+- !private "3Lua14VirtualMachineC"
+- !private "s14_ArrayProtocolP"
+- !private "s23_BidirectionalIndexableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s17_MutableIndexableP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s26_OptionalNilComparisonTypeV"
+- !private "s8_PointerP"
+- !private "s22_RandomAccessIndexableP"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s11_StrideableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/harlan/Code/Swift/lua4swift/LuaSource/include/lua.h"
+- "/Users/harlan/Code/Swift/lua4swift/LuaSource/include/lualib.h"
+- "/Users/harlan/Code/Swift/lua4swift/LuaSource/include/lauxlib.h"
+- "/Users/harlan/Code/Swift/lua4swift/LuaSource/include/lgc.h"
+- "/Users/harlan/Code/Swift/lua4swift/LuaSource/include/lfunc.h"
+- "/Users/harlan/Code/Swift/lua4swift/LuaSource/include/lcode.h"
+- "/Users/harlan/Code/Swift/lua4swift/LuaSource/include/ltable.h"
+- "/Users/harlan/Code/Swift/lua4swift/LuaSource/include/lctype.h"
+- "/Users/harlan/Code/Swift/lua4swift/LuaSource/include/lstate.h"
+- "/Users/harlan/Code/Swift/lua4swift/LuaSource/include/luaconf.h"
+- "/Users/harlan/Code/Swift/lua4swift/LuaSource/include/lstring.h"
+- "/Users/harlan/Code/Swift/lua4swift/LuaSource/include/ldebug.h"
+- "/Users/harlan/Code/Swift/lua4swift/LuaSource/include/lapi.h"
+- "/Users/harlan/Code/Swift/lua4swift/LuaSource/include/lmem.h"
+- "/Users/harlan/Code/Swift/lua4swift/LuaSource/include/ltm.h"
+- "/Users/harlan/Code/Swift/lua4swift/LuaSource/include/lvm.h"
+- "/Users/harlan/Code/Swift/lua4swift/LuaSource/include/ldo.h"
+- "/Users/harlan/Code/Swift/lua4swift/LuaSource/include/lzio.h"
+- "/Users/harlan/Code/Swift/lua4swift/LuaSource/include/lundump.h"
+- "/Users/harlan/Code/Swift/lua4swift/LuaSource/include/lparser.h"
+- "/Users/harlan/Code/Swift/lua4swift/LuaSource/include/lopcodes.h"
+- "/Users/harlan/Code/Swift/lua4swift/LuaSource/include/llimits.h"
+- "/Users/harlan/Code/Swift/lua4swift/LuaSource/include/constants.h"
+- "/Users/harlan/Code/Swift/lua4swift/LuaSource/include/lobject.h"
+- "/Users/harlan/Code/Swift/lua4swift/LuaSource/include/llex.h"
+- "/Users/harlan/Code/Swift/lua4swift/LuaSource/include/lprefix.h"
+- "/Users/harlan/Code/Swift/lua4swift/LuaSource/include/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "8b82ee857cbdefe01ecce47e28b7fe48"
